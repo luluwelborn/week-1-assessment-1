@@ -1,0 +1,73 @@
+body	{
+	font-family: sans-serif;
+    margin: 0px;
+}
+
+.linear-gradient    {
+    background: radial-gradient(#326088, #517ea3);
+    height: 230px;
+}
+
+.content {
+    padding-left: 100px;
+    padding-top: 140px;
+    display: inline-block;
+}
+
+.phones-image   {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+
+.content-info   {
+    max-width: 450px;
+    float: right;
+    padding-left: 30px;
+}
+
+.content-text    {
+    background: #fff;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    color: #3b6f98;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1	{
+	color: #002b56;
+	font-size: 21px;
+}
+
+p 	{
+	color: #585858;
+    font-size: 14px;
+}
+
+button {
+    background-color: #517ea3; /* needs to be gradient */
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: none;
+    font-size: 12px;
+    height: 38px;
+    width: 84px;
+    float: right;
+    margin-top: 20px;
+}
+
+
+.footer {
+    text-align: center;
+
+}
