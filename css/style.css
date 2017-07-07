@@ -54,6 +54,7 @@ section    {
     border-radius: 6px;
 }
 
+/* LIST ITEMS FOR THE FOOTER*/
 li {
     display: inline;
     padding: 8px;
@@ -62,21 +63,25 @@ li {
     font-weight: bold;
 }
 
+/* ADDING STYLE (in this case different color) TO ONE+ LI */
 li span {
   color: #bbb;
 }
 
+/* HEADER */
 h1	{
 	color: #002b56;
 	font-size: 21px;
     margin: 0px;
 }
 
+/* PARAGRAPH TEXT */
 p 	{
 	color: #444;
     font-size: 14px;
 }
 
+/* BUTTON FEATURES */
 button {
     background-color: #517ea3; /* needs to be gradient */
     color: white;
@@ -91,7 +96,7 @@ button {
     margin-top: 20px;
 }
 
-
+/* FOOTER TAG - NOT MAIN CONTENT */
 footer {
     text-align: center;
     display: block;
