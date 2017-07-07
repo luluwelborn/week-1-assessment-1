@@ -1,5 +1,6 @@
+/* MEDIA QUERY MAKES SWEET RESPONSIVE CHANGES */
 @media (max-width: 700px) {
-  
+
 body  {
     background: #517ea3;
   }
@@ -13,16 +14,19 @@ body  {
 }
 }
 
+/* THIS APPLIES TO ALL CONTENTS IN THE HTML DOC */
 body	{
 	font-family: sans-serif;
     margin: 0px;
 }
 
+/* THIS MAKES THE GRADIENT WITHOUT HAVING TO USE A STINKY IMAGE, YUCK! */
 .linear-gradient    {
     background: radial-gradient(#326088, #517ea3);
     height: 300px;
 }
 
+/* DIV FOR THE MAIN CONTENTS */
 .content {
     padding-left: 100px;
     padding-top: 100px;
@@ -30,17 +34,20 @@ body	{
     margin-top: auto;
 }
 
+/* DIV FOR IMAGE WITH SPECIAL ATTRIBUTES */
 .phones-image   {
     display: inline-block;
     padding-right: 20px;
 }
 
+/* DIV FOR RIGHT SIDE CONTENTS INSIDE THE "CONTENT" DIV */
 .content-info   {
     max-width: 450px;
     float: right;
     padding-left: 30px;
 }
 
+/* MY ONE SECTION TAG! DEFINS GENERAL AREA OF PAGE */
 section    {
     background: #fff;
     padding: 30px;
